@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+$primary: #009B3A;
+$secondary: #FED100;
+
+$theme-colors: (
+    "primary": $primary,
+    "secondary": $secondary
+);
+
+$font-family-sans-serif: 'Ubuntu', sans-serif;
