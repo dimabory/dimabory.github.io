@@ -3,7 +3,7 @@
         <h2>Giphy</h2>
 
         <div class="form-query">
-            <b-form inline>
+            <b-form inline novalidate @submit="event => event.preventDefault() || fetchGif()">
                 <b-input v-model="q" class="mb-2 mr-sm-2 mb-sm-0" id="query" name="query" placeholder="..."
                          :disabled="loading"/>
                 <b-button variant="primary" @click="fetchGif" :disabled="loading">

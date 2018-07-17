@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "release": "./node_modules/.bin/vcg --branch=master --repo=git@github.com:dimabory/dimabory.github.io.git"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.0",
@@ -45,7 +46,8 @@
     }
   },
   "gitHooks": {
-    "pre-commit": "npm run lint && npm run build"
+    "pre-commit": "npm run lint",
+    "pre-push": "npm run build && npm run release"
   },
   "browserslist": [
     "> 1%",
