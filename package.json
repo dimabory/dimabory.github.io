@@ -47,7 +47,7 @@
   },
   "gitHooks": {
     "pre-commit": "npm run lint",
-    "pre-push": "npm run build && npm run release"
+    "pre-push": "npm run build && npm run release && git fetch"
   },
   "browserslist": [
     "> 1%",
