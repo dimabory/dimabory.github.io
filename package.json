@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "release": "./node_modules/.bin/vcg --branch=master --repo=git@github.com:dimabory/dimabory.github.io.git"
+    "release": "vcg --branch=master --repo=git@github.com:dimabory/dimabory.github.io.git"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.0",

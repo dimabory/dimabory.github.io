@@ -15,7 +15,11 @@
 </template>
 
 <script>
-  const giphyComponent = () => import('./components/GiphyTab')
+  const tabs = [
+    {title: 'Giphy', component: () => import('./components/GiphyTab'), active: false},
+    {title: 'JavaScript30Days', component: () => import('./components/JavaScript30Days/JavaScript30Days'), active: false},
+  ]
+
   // const wordsApiComponent = () => import('./components/WordsApiTab')
   // const icanhazdadjokeComponent = () => import('./components/IcanhazdadjokeTab')
 
@@ -24,11 +28,7 @@
   export default {
     name: 'AppContainer',
     data: () => ({
-      tabs: [
-        {title: 'Giphy', component: giphyComponent, active: false},
-        // {title: 'WordsAPI', component: wordsApiComponent, active: false},
-        // {title: 'icanhazdadjoke', component: icanhazdadjokeComponent, active: false},
-      ],
+      tabs,
       activeTabIndex: window.localStorage.getItem(ACTIVE_TAB_INDEX_STORAGE_KEY)
     }),
     computed: {
@@ -53,7 +53,7 @@
     created () {
       const index = window.localStorage.getItem(ACTIVE_TAB_INDEX_STORAGE_KEY)
       this.tabs[index].active = true
-    }
+    },
   }
 </script>
 

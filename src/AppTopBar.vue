@@ -2,7 +2,7 @@
     <b-navbar tag="header" class="top-bar" toggleable="sm" type="dark" variant="primary" text-variant="white">
 
         <transition name="running">
-            <img @click="isRunning = !isRunning" src="./assets/runner.gif" class="runner" :class="{active: isRunning}"/>
+            <img @click="isRunning = !isRunning" src="./assets/runner.gif" id="runner" :class="{active: isRunning}"/>
         </transition>
 
         <b-navbar-toggle target="nav_dropdown_collapse" class="order-first"></b-navbar-toggle>
@@ -52,11 +52,9 @@
 
   export default {
     name: 'AppTopBar',
-    data: function () {
-      return {
-        isRunning: true
-      }
-    },
+    data: () => ({
+      isRunning: true,
+    }),
     computed: {},
     methods: {}
   }
@@ -73,7 +71,7 @@
         padding: 15px;
     }
 
-    .runner {
+    #runner {
         box-shadow: inset 0 -7px 13px -10px rgba(0, 0, 0, 0.75);
         position: absolute;
         bottom: 0;
@@ -83,7 +81,7 @@
         animation-play-state: paused;
     }
 
-    .runner.active {
+    #runner.active {
         animation-play-state: running;
     }
 
