@@ -1,23 +1,23 @@
 <template>
-    <b-container tag="main" fluid>
-        <b-card no-body>
-            <b-tabs pills card @input="setActiveTabIndex">
-                <b-tab :title="i.title" v-for="(i, key) in tabs" :key="key" :active="i.active">
-                    <transition name="fade" mode="out-in" appear>
-                        <keep-alive>
-                            <component :is="i.component"></component>
-                        </keep-alive>
-                    </transition>
-                </b-tab>
-            </b-tabs>
-        </b-card>
-    </b-container>
+  <b-container tag="main" fluid>
+    <b-card no-body>
+      <b-tabs pills card @input="setActiveTabIndex">
+        <b-tab :title="i.title" v-for="(i, key) in tabs" :key="key" :active="i.active">
+          <transition name="fade" mode="out-in" appear>
+            <keep-alive>
+              <component :is="i.component"></component>
+            </keep-alive>
+          </transition>
+        </b-tab>
+      </b-tabs>
+    </b-card>
+  </b-container>
 </template>
 
 <script>
   const tabs = [
     {title: 'Giphy', component: () => import('./components/GiphyTab'), active: false},
-    {title: 'JavaScript30Days', component: () => import('./components/JavaScript30Days/JavaScript30Days'), active: false},
+    {title: 'JavaScript30Days', component: () => import('./components/JavaScript30Days'), active: false},
   ]
 
   // const wordsApiComponent = () => import('./components/WordsApiTab')
@@ -52,13 +52,15 @@
     },
     created () {
       const index = window.localStorage.getItem(ACTIVE_TAB_INDEX_STORAGE_KEY)
-      this.tabs[index].active = true
+      if (index) {
+        this.tabs[index].active = true
+      }
     },
   }
 </script>
 
 <style scoped>
-    main {
-        padding: 10px;
-    }
+  main {
+    padding: 10px;
+  }
 </style>
