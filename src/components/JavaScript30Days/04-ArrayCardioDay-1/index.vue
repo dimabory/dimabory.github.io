@@ -1,13 +1,20 @@
-<template>
-  <h2>ArrayCardioDay-1</h2>
-</template>
+<template src="./index.html"></template>
 
 <script>
+  import { init } from './index.vanilla'
+  import ShowCode from '@/components/ShowCode'
+  import * as raw from '!raw-loader!./index.vanilla.js'
+
   export default {
-    name: 'ArrayCardioDay-1'
+    name: '04-ArrayCardioDay-1',
+    components: {ShowCode},
+    data: () => ({
+      raw
+    }),
+    mounted () {
+      init()
+    }
   }
 </script>
 
-<style scoped>
-
-</style>
+<style scoped src="./style.css"></style>

@@ -7,16 +7,23 @@
     </div>
 
     <b-card no-body>
+
       <b-tabs pills card vertical navWrapperClass="col-12 col-sm-3 col-md-2">
+
         <b-tab :title="i.title" v-for="(i, key) in tabs" :key="key" :active="i.active">
+
           <transition name="fade" mode="out-in" appear>
             <keep-alive>
+
               <component :is="i.component"></component>
+
             </keep-alive>
           </transition>
-          <!--<ShowCode :path="i.raw"/>-->
+
         </b-tab>
+
       </b-tabs>
+
     </b-card>
 
   </div>

@@ -1,6 +1,6 @@
 <template src="./index.html"></template>
 <script>
-  import { init } from './index.vanilla.js'
+  import { init } from './index.vanilla'
   import ShowCode from '@/components/ShowCode'
   import * as raw from '!raw-loader!./index.vanilla.js'
 
@@ -11,7 +11,6 @@
       raw
     }),
     mounted () {
-      console.log(typeof init)
       init()
     }
   }

@@ -4,7 +4,7 @@ export function init () {
 
     let keyCode = e.which
 
-    const audio = document.querySelector(`audio[data-key="${keyCode}"]`)
+    const audio  = document.querySelector(`audio[data-key="${keyCode}"]`)
     const button = document.querySelector(`.key[data-key="${keyCode}"]`)
 
     if (!audio) {

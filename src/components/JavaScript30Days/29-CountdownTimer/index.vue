@@ -1,13 +1,20 @@
-<template>
-  <h2>CountdownTimer</h2>
-</template>
+<template src="./index.html"></template>
 
 <script>
+  import { init } from './index.vanilla'
+  import ShowCode from '@/components/ShowCode'
+  import * as raw from '!raw-loader!./index.vanilla.js'
+
   export default {
-    name: 'CountdownTimer'
+    name: '29-CountdownTimer',
+    components: {ShowCode},
+    data: () => ({
+      raw
+    }),
+    mounted () {
+      init()
+    }
   }
 </script>
 
-<style scoped>
-
-</style>
+<style scoped src="./style.css"></style>
