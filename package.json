@@ -4,10 +4,11 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "rm -rf ./dist && vue-cli-service build",
     "lint": "vue-cli-service lint",
     "git-b-is": "git-branch-is",
-    "release": "npm run git-b-is gh-pages && npm run build && npm run release && git fetch"
+    "prerelease": "npm run git-b-is gh-pages && npm run build",
+    "release": "vcg --branch=master --repo=git@github.com:dimabory/dimabory.github.io.git && standard-version -a"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.0",
@@ -28,6 +29,7 @@
     "node-sass": "^4.9.2",
     "raw-loader": "^0.5.1",
     "sass-loader": "^7.0.3",
+    "standard-version": "^4.4.0",
     "vue-cli-ghpages": "^1.0.0",
     "vue-template-compiler": "^2.5.16"
   },
