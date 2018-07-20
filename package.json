@@ -6,7 +6,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "release": "npm run build && vcg --branch=master --repo=git@github.com:dimabory/dimabory.github.io.git"
+    "git-b-is": "git-branch-is",
+    "release": "npm run git-b-is gh-pages && npm run build && npm run release && git fetch"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.0",
@@ -23,6 +24,7 @@
     "@vue/cli-plugin-eslint": "^3.0.0-beta.15",
     "@vue/cli-service": "^3.0.0-beta.15",
     "babel-preset-env": "^1.7.0",
+    "git-branch-is": "^2.0.0",
     "node-sass": "^4.9.2",
     "raw-loader": "^0.5.1",
     "sass-loader": "^7.0.3",
@@ -54,8 +56,7 @@
     }
   },
   "gitHooks": {
-    "pre-commit": "npm run lint",
-    "pre-push": "npm run build && npm run release && git fetch"
+    "pre-commit": "npm run lint"
   },
   "browserslist": [
     "> 1%",
