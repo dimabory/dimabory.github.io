@@ -6,7 +6,7 @@
   import * as raw from '!raw-loader!./index.vanilla.js'
 
   export default {
-    name: '02-JSandCSSClock',
+    name: 'JSandCSSClock',
     components: {ShowCode},
     data: () => ({
       raw

@@ -1,7 +1,7 @@
 .clock {
-  width: 30rem;
-  height: 30rem;
-  border: 20px solid white;
+  width: 20rem;
+  height: 20rem;
+  border: 3px solid var(--secondary);
   border-radius: 50%;
   margin: 50px auto;
   position: relative;
@@ -10,6 +10,44 @@
   inset 0 0 0 3px #EFEFEF,
   inset 0 0 10px black,
   0 0 10px rgba(0, 0, 0, 0.2);
+  background:
+    radial-gradient(transparent 125px, #eee 125px),
+    radial-gradient(#eee 110px, transparent 110px),
+    linear-gradient(90deg, transparent 49.5%, black 50%, transparent 50%),
+    linear-gradient(120deg, transparent 49.5%, black 50%, transparent 50%),
+    linear-gradient(150deg, transparent 49.5%, black 50%, transparent 50%),
+    linear-gradient(180deg, transparent 49.5%, black 50%, transparent 50%),
+    linear-gradient(210deg, transparent 49.5%, black 50%, transparent 50%),
+    linear-gradient(240deg, transparent 49.5%, black 50%, transparent 50%),
+    radial-gradient(#eee 120px, transparent 120px),
+    linear-gradient(264deg, transparent 49.5%, black 50%, transparent 50%),
+    linear-gradient(258deg, transparent 49.5%, black 50%, transparent 50%),
+    linear-gradient(252deg, transparent 49.5%, black 50%, transparent 50%),
+    linear-gradient(246deg, transparent 49.5%, black 50%, transparent 50%),
+    linear-gradient(234deg, transparent 49.5%, black 50%, transparent 50%),
+    linear-gradient(228deg, transparent 49.5%, black 50%, transparent 50%),
+    linear-gradient(222deg, transparent 49.5%, black 50%, transparent 50%),
+    linear-gradient(216deg, transparent 49.5%, black 50%, transparent 50%),
+    linear-gradient(204deg, transparent 49.5%, black 50%, transparent 50%),
+    linear-gradient(198deg, transparent 49.5%, black 50%, transparent 50%),
+    linear-gradient(192deg, transparent 49.5%, black 50%, transparent 50%),
+    linear-gradient(186deg, transparent 49.5%, black 50%, transparent 50%),
+    linear-gradient(174deg, transparent 49.5%, black 50%, transparent 50%),
+    linear-gradient(168deg, transparent 49.5%, black 50%, transparent 50%),
+    linear-gradient(162deg, transparent 49.5%, black 50%, transparent 50%),
+    linear-gradient(156deg, transparent 49.5%, black 50%, transparent 50%),
+    linear-gradient(144deg, transparent 49.5%, black 50%, transparent 50%),
+    linear-gradient(138deg, transparent 49.5%, black 50%, transparent 50%),
+    linear-gradient(132deg, transparent 49.5%, black 50%, transparent 50%),
+    linear-gradient(126deg, transparent 49.5%, black 50%, transparent 50%),
+    linear-gradient(114deg, transparent 49.5%, black 50%, transparent 50%),
+    linear-gradient(108deg, transparent 49.5%, black 50%, transparent 50%),
+    linear-gradient(102deg, transparent 49.5%, black 50%, transparent 50%),
+    linear-gradient(96deg, transparent 49.5%, black 50%, transparent 50%),
+    #eee;
+
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .clock-face {
@@ -25,4 +63,21 @@
   background: black;
   position: absolute;
   top: 50%;
+  transform-origin: 100%;
+  transform: rotate(90deg);
+  transition: all .05s;
+  transition-timing-function: cubic-bezier(0.2, 3, 0.5, 0.5)
+}
+
+.hour-hand {
+  height: 5px;
+}
+
+.min-hand {
+  height: 3px;
+}
+
+.second-hand {
+  height: 1px;
+  background: var(--secondary);
 }
