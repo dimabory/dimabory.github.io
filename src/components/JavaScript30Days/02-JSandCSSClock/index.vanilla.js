@@ -4,7 +4,8 @@ export function init () {
   const minsHand    = document.querySelector('.min-hand')
   const hoursHand   = document.querySelector('.hour-hand')
 
-  function setDate () {
+  function setTime () {
+
     const now = new Date()
 
     const hours   = now.getHours()
@@ -14,15 +15,11 @@ export function init () {
     const rotationInDegrees = (value, rate = 60) => (value / rate) * 360 + 90
 
     secondsHand.style.transform = `rotate(${rotationInDegrees(seconds)}deg)`
-
-    minsHand.style.transform = `rotate(${rotationInDegrees(mins)}deg)`
-
-    hoursHand.style.transform = `rotate(${rotationInDegrees(hours, 12)}deg)`
+    minsHand.style.transform    = `rotate(${rotationInDegrees(mins)}deg)`
+    hoursHand.style.transform   = `rotate(${rotationInDegrees(hours, 12)}deg)`
+    
   }
 
-  setInterval(
-    setDate,
-    1000
-  )
+  setInterval(setTime, 1000)
 
 }
