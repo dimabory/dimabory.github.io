@@ -6,7 +6,7 @@
   import * as raw from '!raw-loader!./index.vanilla.js'
 
   export default {
-    name: '30-WhackAMole',
+    name: 'WhackAMole',
     components: {ShowCode},
     data: () => ({
       raw

@@ -6,7 +6,7 @@
   import * as raw from '!raw-loader!./index.vanilla.js'
 
   export default {
-    name: '09-DevToolsDomination',
+    name: 'DevToolsDomination',
     components: {ShowCode},
     data: () => ({
       raw

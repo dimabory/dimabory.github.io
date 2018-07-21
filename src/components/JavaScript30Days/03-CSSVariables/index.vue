@@ -6,7 +6,7 @@
   import * as raw from '!raw-loader!./index.vanilla.js'
 
   export default {
-    name: '03-CSSVariables',
+    name: 'CSSVariables',
     components: {ShowCode},
     data: () => ({
       raw

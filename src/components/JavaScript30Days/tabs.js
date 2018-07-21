@@ -1,6 +1,6 @@
 export default [
   {title: '01-Drum Kit', component: () => import('./01-DrumKit'), active: true},
-  // {title: '02-JS and CSS Clock', component: () => import('./02-JSandCSSClock'), active: false},
+  {title: '02-JS and CSS Clock', component: () => import('./02-JSandCSSClock'), active: false},
   // {title: '03-CSS Variables', component: () => import('./03-CSSVariables'), active: false},
   // {title: '04-Array Cardio Day 1', component: () => import('./04-ArrayCardioDay-1'), active: false},
   // {title: '05-Flex Panel Gallery', component: () => import('./05-FlexPanelGallery'), active: false},

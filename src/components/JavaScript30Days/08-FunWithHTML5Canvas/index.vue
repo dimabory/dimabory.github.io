@@ -6,7 +6,7 @@
   import * as raw from '!raw-loader!./index.vanilla.js'
 
   export default {
-    name: '08-FunWithHTML5Canvas',
+    name: 'FunWithHTML5Canvas',
     components: {ShowCode},
     data: () => ({
       raw

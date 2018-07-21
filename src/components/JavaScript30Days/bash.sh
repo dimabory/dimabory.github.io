@@ -15,7 +15,7 @@ createIndexVue() {
   import * as raw from '!raw-loader!./index.vanilla.js'
 
   export default {
-    name: '$i',
+    name: '$2',
     components: {ShowCode},
     data: () => ({
       raw
@@ -30,7 +30,7 @@ createIndexVue() {
 }
 createIndexHtml() {
   echo "<div class=\"container\">
-  <h2 class=\"text-center\">$1</h2>
+  <h2 class=\"text-center\">$2</h2>
 </div>" > "$1/index.html"
 }
 
@@ -47,7 +47,7 @@ createVanillaJs() {
 for i in "$@"; do
 #  mkdir "$i"
   createIndexVue "$i/index.vue" "${i#*-*}"
-  createIndexHtml "$i"
+  createIndexHtml "$i" "${i#*-*}"
   createStyle "$i"
   createVanillaJs "$i"
 done

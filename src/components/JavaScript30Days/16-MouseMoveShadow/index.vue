@@ -6,7 +6,7 @@
   import * as raw from '!raw-loader!./index.vanilla.js'
 
   export default {
-    name: '16-MouseMoveShadow',
+    name: 'MouseMoveShadow',
     components: {ShowCode},
     data: () => ({
       raw

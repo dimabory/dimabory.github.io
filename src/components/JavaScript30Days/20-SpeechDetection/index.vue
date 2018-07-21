@@ -6,7 +6,7 @@
   import * as raw from '!raw-loader!./index.vanilla.js'
 
   export default {
-    name: '20-SpeechDetection',
+    name: 'SpeechDetection',
     components: {ShowCode},
     data: () => ({
       raw

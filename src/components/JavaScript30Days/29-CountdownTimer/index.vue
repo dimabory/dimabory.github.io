@@ -6,7 +6,7 @@
   import * as raw from '!raw-loader!./index.vanilla.js'
 
   export default {
-    name: '29-CountdownTimer',
+    name: 'CountdownTimer',
     components: {ShowCode},
     data: () => ({
       raw

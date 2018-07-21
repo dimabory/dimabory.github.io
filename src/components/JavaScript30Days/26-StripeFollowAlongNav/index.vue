@@ -6,7 +6,7 @@
   import * as raw from '!raw-loader!./index.vanilla.js'
 
   export default {
-    name: '26-StripeFollowAlongNav',
+    name: 'StripeFollowAlongNav',
     components: {ShowCode},
     data: () => ({
       raw

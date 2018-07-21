@@ -6,7 +6,7 @@
   import * as raw from '!raw-loader!./index.vanilla.js'
 
   export default {
-    name: '14-JSReferenceVsCopying',
+    name: 'JSReferenceVsCopying',
     components: {ShowCode},
     data: () => ({
       raw

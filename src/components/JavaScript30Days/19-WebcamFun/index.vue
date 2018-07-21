@@ -6,7 +6,7 @@
   import * as raw from '!raw-loader!./index.vanilla.js'
 
   export default {
-    name: '19-WebcamFun',
+    name: 'WebcamFun',
     components: {ShowCode},
     data: () => ({
       raw

@@ -6,7 +6,7 @@
   import * as raw from '!raw-loader!./index.vanilla.js'
 
   export default {
-    name: '13-SlideInOnScroll',
+    name: 'SlideInOnScroll',
     components: {ShowCode},
     data: () => ({
       raw

@@ -6,7 +6,7 @@
   import * as raw from '!raw-loader!./index.vanilla.js'
 
   export default {
-    name: '24-StickyNav',
+    name: 'StickyNav',
     components: {ShowCode},
     data: () => ({
       raw

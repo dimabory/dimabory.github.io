@@ -6,7 +6,7 @@
   import * as raw from '!raw-loader!./index.vanilla.js'
 
   export default {
-    name: '22-FollowAlongLinkHighlighter',
+    name: 'FollowAlongLinkHighlighter',
     components: {ShowCode},
     data: () => ({
       raw

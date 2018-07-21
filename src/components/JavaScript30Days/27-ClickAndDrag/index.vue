@@ -6,7 +6,7 @@
   import * as raw from '!raw-loader!./index.vanilla.js'
 
   export default {
-    name: '27-ClickAndDrag',
+    name: 'ClickAndDrag',
     components: {ShowCode},
     data: () => ({
       raw

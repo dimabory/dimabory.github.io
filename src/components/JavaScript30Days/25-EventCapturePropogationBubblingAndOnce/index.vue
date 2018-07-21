@@ -6,7 +6,7 @@
   import * as raw from '!raw-loader!./index.vanilla.js'
 
   export default {
-    name: '25-EventCapturePropogationBubblingAndOnce',
+    name: 'EventCapturePropogationBubblingAndOnce',
     components: {ShowCode},
     data: () => ({
       raw

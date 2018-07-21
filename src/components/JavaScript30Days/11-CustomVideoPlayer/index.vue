@@ -6,7 +6,7 @@
   import * as raw from '!raw-loader!./index.vanilla.js'
 
   export default {
-    name: '11-CustomVideoPlayer',
+    name: 'CustomVideoPlayer',
     components: {ShowCode},
     data: () => ({
       raw

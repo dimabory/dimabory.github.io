@@ -6,7 +6,7 @@
   import * as raw from '!raw-loader!./index.vanilla.js'
 
   export default {
-    name: '17-SortWithoutArticles',
+    name: 'SortWithoutArticles',
     components: {ShowCode},
     data: () => ({
       raw

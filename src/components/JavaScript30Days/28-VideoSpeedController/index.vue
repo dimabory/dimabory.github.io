@@ -6,7 +6,7 @@
   import * as raw from '!raw-loader!./index.vanilla.js'
 
   export default {
-    name: '28-VideoSpeedController',
+    name: 'VideoSpeedController',
     components: {ShowCode},
     data: () => ({
       raw

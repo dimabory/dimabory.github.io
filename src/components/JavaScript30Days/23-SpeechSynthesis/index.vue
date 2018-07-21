@@ -6,7 +6,7 @@
   import * as raw from '!raw-loader!./index.vanilla.js'
 
   export default {
-    name: '23-SpeechSynthesis',
+    name: 'SpeechSynthesis',
     components: {ShowCode},
     data: () => ({
       raw

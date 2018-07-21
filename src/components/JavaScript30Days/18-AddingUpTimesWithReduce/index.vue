@@ -6,7 +6,7 @@
   import * as raw from '!raw-loader!./index.vanilla.js'
 
   export default {
-    name: '18-AddingUpTimesWithReduce',
+    name: 'AddingUpTimesWithReduce',
     components: {ShowCode},
     data: () => ({
       raw

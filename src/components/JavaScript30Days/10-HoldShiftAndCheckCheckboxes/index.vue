@@ -6,7 +6,7 @@
   import * as raw from '!raw-loader!./index.vanilla.js'
 
   export default {
-    name: '10-HoldShiftAndCheckCheckboxes',
+    name: 'HoldShiftAndCheckCheckboxes',
     components: {ShowCode},
     data: () => ({
       raw

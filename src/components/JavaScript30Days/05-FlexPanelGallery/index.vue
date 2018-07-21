@@ -6,7 +6,7 @@
   import * as raw from '!raw-loader!./index.vanilla.js'
 
   export default {
-    name: '05-FlexPanelGallery',
+    name: 'FlexPanelGallery',
     components: {ShowCode},
     data: () => ({
       raw

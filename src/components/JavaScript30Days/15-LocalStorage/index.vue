@@ -6,7 +6,7 @@
   import * as raw from '!raw-loader!./index.vanilla.js'
 
   export default {
-    name: '15-LocalStorage',
+    name: 'LocalStorage',
     components: {ShowCode},
     data: () => ({
       raw

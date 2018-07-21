@@ -6,7 +6,7 @@
   import * as raw from '!raw-loader!./index.vanilla.js'
 
   export default {
-    name: '06-TypeAhead',
+    name: 'TypeAhead',
     components: {ShowCode},
     data: () => ({
       raw

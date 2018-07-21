@@ -6,7 +6,7 @@
   import * as raw from '!raw-loader!./index.vanilla.js'
 
   export default {
-    name: '21-Geolocation',
+    name: 'Geolocation',
     components: {ShowCode},
     data: () => ({
       raw

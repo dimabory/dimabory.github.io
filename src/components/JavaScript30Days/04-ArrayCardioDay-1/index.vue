@@ -6,7 +6,7 @@
   import * as raw from '!raw-loader!./index.vanilla.js'
 
   export default {
-    name: '04-ArrayCardioDay-1',
+    name: 'ArrayCardioDay-1',
     components: {ShowCode},
     data: () => ({
       raw

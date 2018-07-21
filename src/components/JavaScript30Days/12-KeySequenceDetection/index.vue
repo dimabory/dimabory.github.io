@@ -6,7 +6,7 @@
   import * as raw from '!raw-loader!./index.vanilla.js'
 
   export default {
-    name: '12-KeySequenceDetection',
+    name: 'KeySequenceDetection',
     components: {ShowCode},
     data: () => ({
       raw
