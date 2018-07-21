@@ -1,11 +1,9 @@
 export function init () {
 
-  function playSound (e) {
+  function playSound (key) {
 
-    let keyCode = e.which
-
-    const audio  = document.querySelector(`audio[data-key="${keyCode}"]`)
-    const button = document.querySelector(`.key[data-key="${keyCode}"]`)
+    const audio  = document.querySelector(`audio[data-key="${key}"]`)
+    const button = document.querySelector(`.key[data-key="${key}"]`)
 
     if (!audio) {
       return
@@ -30,7 +28,12 @@ export function init () {
     e.target.classList.remove('playing')
   }
 
-  window.addEventListener('keydown', playSound)
-  document.querySelectorAll('.key').forEach(key => key.addEventListener('transitionend', removeTransition))
+  window.addEventListener('keydown', e => playSound(e.which))
+
+  document.querySelectorAll('.key').forEach(key => {
+    key.addEventListener('transitionend', removeTransition)
+
+    ;['click','ontouchstart'].forEach(e => key.addEventListener(e, event => playSound(event.target.dataset.key), false))
+  })
 
 }
