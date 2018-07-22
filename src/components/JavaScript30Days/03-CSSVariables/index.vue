@@ -28,8 +28,8 @@
       blur: cssVariablesComputedProperty(BLUR_VAR)
     },
     mounted () {
-      document.documentElement.style.setProperty(this.$refs.base.name, this.base)
       this.$refs.base.value = this.base
+      this.$refs.base.dispatchEvent(new Event('change'))
     }
   }
 </script>
