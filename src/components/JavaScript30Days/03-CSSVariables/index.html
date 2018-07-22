@@ -1,3 +1,34 @@
-<div class="container">
-  <h2 class="text-center">CSSVariables</h2>
+<div class="container mb-4">
+
+  <h2 class="text-center">Update CSS Variables with <span class='hl'>JS</span></h2>
+
+  <div class="row justify-content-center">
+    <div class="controls col-12 col-md-2 d-flex flex-column justify-content-baseline">
+      <div class="form-group">
+        <label for="03-css-variables-spacing">Spacing:</label>
+        <input ref="spacing" id="03-css-variables-spacing" class="form-control-range" type="range" name="03-css-variables-spacing"
+               min="10" max="30" value="10"
+               data-sizing="px" @change="spacing = $event.target.value">
+      </div>
+
+      <div class="form-group">
+        <label for="03-css-variables-blur">Blur:</label>
+        <input ref="blur" id="03-css-variables-blur" class="form-control-range" type="range" name="03-css-variables-blur" min="0"
+               max="25" value="1"
+               data-sizing="px" @change="blur = $event.target.value">
+      </div>
+
+      <div class="form-group">
+        <label for="03-css-variables-base">Base Color</label>
+        <input ref="base" id="03-css-variables-base" class="form-control" type="color" name="03-css-variables-base"
+               value="#ffc600" @change="base = $event.target.value">
+      </div>
+    </div>
+
+    <div class="col d-flex justify-content-center">
+      <img class="img-thumbnail" src="http://thecatapi.com/api/images/get">
+    </div>
+
+  </div>
+
 </div>

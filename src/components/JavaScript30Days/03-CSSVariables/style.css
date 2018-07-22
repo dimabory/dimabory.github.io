@@ -1,0 +1,17 @@
+.controls {
+  margin-bottom: 50px;
+}
+
+input {
+  width: 100px;
+}
+
+img {
+  padding: var(--03-css-variables-spacing);
+  background: var(--03-css-variables-base);
+  filter: blur(var(--03-css-variables-blur));
+}
+
+.hl {
+  color: var(--03-css-variables-base);
+}

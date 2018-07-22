@@ -1,4 +1,8 @@
 :root {
-    --primary:  #009B3A;
-    --secondary:  #FED100;
+  --primary: #009B3A;
+  --secondary: #FED100;
+
+  --03-css-variables-base: #ffff00;
+  --03-css-variables-spacing: 10px;
+  --03-css-variables-blur: 1px;
 }
