@@ -23,4 +23,24 @@ For instance load file as raw:
   import * as variable from '!raw-loader!<filename>.<ext>'
 ```
 
+- Event Bubbling
+
+Do you know the difference? Ok, read it here 
+https://www.sitepoint.com/event-bubbling-javascript/
+
+```js
+
+// 1
+['click','ontouchstart'].forEach(e => key.addEventListener(e, function (event) {
+  playSound(this.dataset.key)
+}, false))
+
+// 2
+['click','ontouchstart'].forEach(e => key.addEventListener(e, function (event) {
+  playSound(event.target.dataset.key)
+}, false))
+
+```
+
 - ...
+

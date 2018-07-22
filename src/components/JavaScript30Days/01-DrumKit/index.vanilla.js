@@ -33,7 +33,9 @@ export function init () {
   document.querySelectorAll('.key').forEach(key => {
     key.addEventListener('transitionend', removeTransition)
 
-    ;['click','ontouchstart'].forEach(e => key.addEventListener(e, event => playSound(event.target.dataset.key), false))
+    ;['click','ontouchstart'].forEach(e => key.addEventListener(e, function () {
+      playSound(this.dataset.key)
+    }, false))
   })
 
 }
