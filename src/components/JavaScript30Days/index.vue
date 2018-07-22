@@ -14,11 +14,21 @@
 
           <transition name="fade" mode="out-in" appear>
             <keep-alive>
-
-              <component :is="i.component"></component>
-
+              <component :is="i.component" @mounted="showCode(key, $event.raw)"></component>
             </keep-alive>
           </transition>
+
+          <template v-if="i.raw">
+            <keep-alive>
+              <show-code :raw="i.raw"></show-code>
+            </keep-alive>
+          </template>
+
+          <template v-else>
+            <div class="row justify-content-center">
+              <font-awesome-icon :class="'frog-icon'" class="text-primary" :icon="['fas', 'frog']" size="lg"/>
+            </div>
+          </template>
 
         </b-tab>
 
@@ -30,15 +40,27 @@
 </template>
 
 <script>
-  import tabs from './tabs'
-  import ShowCode from '../ShowCode'
+  import tabs        from './tabs'
+  import { faFrog }  from '@fortawesome/free-solid-svg-icons'
+  import { library } from '@fortawesome/fontawesome-svg-core'
+
+  library.add(faFrog)
+
+  const ShowCode = () => import('../ShowCode')
 
   export default {
     name: 'JavaScript30Days',
     components: {ShowCode},
     data: () => ({
       tabs
-    })
+    }),
+    methods: {
+      showCode (i, data) {
+        this.$nextTick(() => {
+          this.tabs[i].raw = data
+        })
+      }
+    }
   }
 </script>
 
@@ -53,4 +75,19 @@
       /deep/ .card-header {}
    }
    */
+
+  .frog-icon {
+    transition: all 1s;
+    animation: scale-frog 1s infinite both ease-in;
+  }
+
+  @keyframes scale-frog {
+    from {
+      transform: scale(1);
+    }
+
+    to {
+      transform: scale(1.5);
+    }
+  }
 </style>
