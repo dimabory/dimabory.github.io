@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.3.0"></a>
+# [0.3.0](/compare/v0.2.1...v0.3.0) (2018-07-22)
+
+
+### Bug Fixes
+
+* **01-drum-kit:** fix event bubbling 5b7b79b
+
+
+### Features
+
+* **03-css-variables:** 03-CSSVariables 0fc54b8
+* **js-30-days-components:** move show code component to the main tab component 5f31230
+* **js-30-days-components:** updates to components & new mixin c03897c
+
+
+
 <a name="0.2.1"></a>
 ## 0.2.1 (2018-07-21)
 
