@@ -1,6 +1,5 @@
 module.exports = {
   css: {
-    // modules: true,
     loaderOptions: {
       css: {},
       sass: {
