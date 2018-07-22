@@ -2,18 +2,13 @@
 
 <script>
   import { init } from './index.vanilla'
-  import ShowCode from '@/components/ShowCode'
   import * as raw from '!raw-loader!./index.vanilla.js'
+
+  import mixin from '../mixin'
 
   export default {
     name: 'ArrayCardioDay-2',
-    components: {ShowCode},
-    data: () => ({
-      raw
-    }),
-    mounted () {
-      init()
-    }
+    mixins: [mixin(() => ({raw}), init)],
   }
 </script>
 

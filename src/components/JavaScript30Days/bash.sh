@@ -11,18 +11,13 @@ createIndexVue() {
 
 <script>
   import { init } from './index.vanilla'
-  import ShowCode from '@/components/ShowCode'
   import * as raw from '!raw-loader!./index.vanilla.js'
+
+  import mixin from '../mixin'
 
   export default {
     name: '$2',
-    components: {ShowCode},
-    data: () => ({
-      raw
-    }),
-    mounted () {
-      init()
-    }
+    mixins: [mixin(() => ({raw}), init)],
   }
 </script>
 
@@ -47,7 +42,7 @@ createVanillaJs() {
 for i in "$@"; do
 #  mkdir "$i"
   createIndexVue "$i/index.vue" "${i#*-*}"
-  createIndexHtml "$i" "${i#*-*}"
-  createStyle "$i"
-  createVanillaJs "$i"
+#  createIndexHtml "$i" "${i#*-*}"
+#  createStyle "$i"
+#  createVanillaJs "$i"
 done
