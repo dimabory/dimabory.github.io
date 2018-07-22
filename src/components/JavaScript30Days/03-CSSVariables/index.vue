@@ -29,7 +29,7 @@
     },
     mounted () {
       this.$refs.base.value = this.base
-      this.$refs.base.dispatchEvent(new Event('change'))
+      this.$refs.base.dispatchEvent(new Event('input'))
     }
   }
 </script>
