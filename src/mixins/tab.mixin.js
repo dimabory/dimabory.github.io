@@ -11,9 +11,6 @@ export default function (tabs, storageKey) {
           return this.activeTabIndex
         },
         set: function (index) {
-
-          console.log('SET ACTIVE', index)
-
           window.localStorage.setItem(storageKey, index)
 
           this.activeTabIndex = index
@@ -22,9 +19,7 @@ export default function (tabs, storageKey) {
     },
     created () {
       const index = window.localStorage.getItem(storageKey)
-
-      console.log('CREATED', this)
-
+      
       if (index) {
         this.tabs[index].active = true
       }
