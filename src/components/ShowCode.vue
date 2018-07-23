@@ -1,12 +1,10 @@
 <template>
   <div class="container">
-    <slot name="toggle-btn">
-      <div class="row justify-content-center">
-        <b-btn v-b-toggle="id">Show Code</b-btn>
-      </div>
-    </slot>
+    <div class="row justify-content-center">
+      <b-btn @click="$refs.panel.toggle()" :class="btnClass">{{btnTitle}}</b-btn>
+    </div>
     <transition name="fade" mode="out-in">
-      <b-collapse :id="id" class="mt-2">
+      <b-collapse ref='panel' :id="id" class="mt-2">
         <b-card>
           <pre v-highlightjs="raw"><code :class="[type, 'style']"></code></pre>
         </b-card>
@@ -33,15 +31,20 @@
       }
     },
     props:    {
-      raw:    {
+      btnTitle: {
+        type:    String,
+        default: 'Show Code'
+      },
+      btnClass: Array,
+      raw:      {
         type:     String,
         required: true,
       },
-      type:   {
+      type:     {
         type:    String,
         default: 'javascript'
       },
-      _style: {
+      _style:   {
         type:      String,
         default:   'atom-one-dark',
         validator: function (value) {

@@ -30,13 +30,7 @@
   </div>
 
   <div class="row mb-4">
-    <show-code :raw="cssRaw" :type="'css'">
-      <template slot="toggle-btn">
-        <div class="row justify-content-center">
-          <b-btn v-b-toggle.css class="bg-dark text-secondary">CSS</b-btn>
-        </div>
-      </template>
-    </show-code>
+    <show-code :raw="cssRaw" :type="'css'" :btnTitle="'CSS'" :btnClass="['bg-dark text-secondary']"></show-code>
   </div>
 
 </div>
