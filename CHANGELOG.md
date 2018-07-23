@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.4.0"></a>
+# [0.4.0](/compare/v0.3.4...v0.4.0) (2018-07-23)
+
+
+### Features
+
+* **04-array-cardio-data-1:** 04-ArrayCardioDay-1 9e01b2f
+
+
+
 <a name="0.3.4"></a>
 ## [0.3.4](/compare/v0.3.2...v0.3.4) (2018-07-22)
 
