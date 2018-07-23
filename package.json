@@ -16,7 +16,8 @@
     "lint": "vue-cli-service lint",
     "git-b-is": "git-branch-is",
     "prerelease": "npm run git-b-is gh-pages && npm run build",
-    "release": "vcg --branch=master --repo=git@github.com:dimabory/dimabory.github.io.git && standard-version -a"
+    "release": "vcg --branch=master --repo=git@github.com:dimabory/dimabory.github.io.git && standard-version -a",
+    "push-gh": "git push --follow-tags origin gh-pages"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.0",
