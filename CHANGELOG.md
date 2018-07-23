@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.6.0"></a>
+# [0.6.0](https://github.com/dimabory/dimabory.github.io/compare/v0.5.2...v0.6.0) (2018-07-23)
+
+
+### Features
+
+* **05-flex-panel-gallery:** 05-FlexPanelGallery ([f26db93](https://github.com/dimabory/dimabory.github.io/commit/f26db93))
+* **show-code-panel:** set unique panel id ([32b4d1e](https://github.com/dimabory/dimabory.github.io/commit/32b4d1e))
+
+
+
 <a name="0.5.2"></a>
 ## [0.5.2](/compare/v0.5.1...v0.5.2) (2018-07-23)
 
