@@ -1,3 +1,43 @@
 <div class="container">
-  <h2 class="text-center">FlexPanelGallery</h2>
+  <h2 class="text-center">Flex Panel Gallery</h2>
+
+  <div class="panels col mb-4">
+    <div class="panel">
+      <p>Hey</p>
+      <p>Let's</p>
+      <p>Dance</p>
+    </div>
+    <div class="panel">
+      <p>Give</p>
+      <p>Take</p>
+      <p>Receive</p>
+    </div>
+    <div class="panel">
+      <p>Experience</p>
+      <p>It</p>
+      <p>Today</p>
+    </div>
+    <div class="panel">
+      <p>Give</p>
+      <p>All</p>
+      <p>You can</p>
+    </div>
+    <div class="panel">
+      <p>Life</p>
+      <p>In</p>
+      <p>Motion</p>
+    </div>
+  </div>
+
+  <div class="row mb-4">
+    <show-code :raw="cssRaw" :type="'css'">
+      <template slot="toggle-btn">
+        <div class="row justify-content-center">
+          <b-btn v-b-toggle.css class="bg-dark text-secondary">CSS</b-btn>
+        </div>
+      </template>
+    </show-code>
+  </div>
+
 </div>
+
