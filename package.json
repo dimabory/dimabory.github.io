@@ -2,12 +2,13 @@
   "name": "dimabory.github.io",
   "author": "Dmytro Borysovskyi",
   "homepage": "https://dimabory.github.io",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "Personal SPA for fun and self-development.",
   "license": "MIT",
   "private": true,
   "keywords": [
-    "vue", "gh-pages"
+    "vue",
+    "gh-pages"
   ],
   "scripts": {
     "serve": "vue-cli-service serve",
