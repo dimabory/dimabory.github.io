@@ -20,6 +20,7 @@ export function init () {
     
   }
 
+  setTime()
   setInterval(setTime, 1000)
 
 }
