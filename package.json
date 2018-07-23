@@ -2,7 +2,7 @@
   "name": "dimabory.github.io",
   "author": "Dmytro Borysovskyi",
   "homepage": "https://dimabory.github.io",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "Personal SPA for fun and self-development.",
   "license": "MIT",
   "private": true,
