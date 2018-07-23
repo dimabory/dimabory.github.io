@@ -12,7 +12,7 @@ export default new Router({
       path:      '/',
       name:      'home',
       component: AppContainer,
-      redirect:  '/giphy',
+      redirect:  window.localStorage.getItem('router') || 'giphy',
       children:  [
         {
           path:      'giphy',
