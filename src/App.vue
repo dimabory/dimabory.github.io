@@ -1,20 +1,20 @@
 <template>
-    <div id="app">
-        <AppTopBar/>
-        <AppContainer/>
-        <!--<AppFooter/>-->
-    </div>
+  <div id="app">
+    <AppTopBar/>
+    <router-view></router-view>
+    <!--<AppFooter/>-->
+  </div>
 </template>
 
 <script>
   import AppTopBar from './AppTopBar'
-  import AppContainer from './AppContainer'
   import AppFooter from './AppFooter'
 
   export default {
-    name: 'app',
-    components: {AppFooter, AppContainer, AppTopBar}
+    name:       'app',
+    components: {AppFooter, AppTopBar}
   }
 </script>
 
+<style src="./assets/css/app.css"></style>
 <style src="./assets/css/_variables.css"></style>

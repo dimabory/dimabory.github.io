@@ -1,7 +1,7 @@
 export default function (tabs, storageKey) {
 
   return {
-    data: () => ({
+    data:     () => ({
       tabs,
       activeTabIndex: window.localStorage.getItem(storageKey)
     }),
@@ -19,7 +19,7 @@ export default function (tabs, storageKey) {
     },
     created () {
       const index = window.localStorage.getItem(storageKey)
-      
+
       if (index) {
         this.tabs[index].active = true
       }
