@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.4.1"></a>
+## [0.4.1](/compare/v0.4.0...v0.4.1) (2018-07-23)
+
+
+### Bug Fixes
+
+* **04-array-cardio-data-1:** change emoji to gif (dancing MJ) 6dce74d
+
+
+
 <a name="0.4.0"></a>
 # [0.4.0](/compare/v0.3.4...v0.4.0) (2018-07-23)
 
