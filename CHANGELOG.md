@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.7.0"></a>
+# [0.7.0](https://github.com/dimabory/dimabory.github.io/compare/v0.6.0...v0.7.0) (2018-07-27)
+
+
+### Bug Fixes
+
+* **03-css-variables:** fix mobile view ([0941f48](https://github.com/dimabory/dimabory.github.io/commit/0941f48))
+* **05-flex-code-panel:** displaying css code panel ([0211834](https://github.com/dimabory/dimabory.github.io/commit/0211834))
+
+
+### Features
+
+* **06-type-ahead:** 06-TypeAhead ([ff63207](https://github.com/dimabory/dimabory.github.io/commit/ff63207))
+
+
+
 <a name="0.6.1"></a>
 ## [0.6.1](https://github.com/dimabory/dimabory.github.io/compare/v0.6.0...v0.6.1) (2018-07-23)
 
