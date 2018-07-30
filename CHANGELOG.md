@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.11.0"></a>
+# [0.11.0](https://github.com/dimabory/dimabory.github.io/compare/v0.10.0...v0.11.0) (2018-07-30)
+
+
+### Features
+
+* **10-hold-shift-and-check-checkboxes:** 10-HoldShiftAndCheckCheckboxes ([cb47a08](https://github.com/dimabory/dimabory.github.io/commit/cb47a08))
+
+
+
 <a name="0.10.0"></a>
 # [0.10.0](https://github.com/dimabory/dimabory.github.io/compare/v0.9.0...v0.10.0) (2018-07-30)
 
