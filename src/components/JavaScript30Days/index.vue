@@ -9,7 +9,7 @@
 
     <b-card no-body>
 
-      <b-tabs lazy pills card navClass="justify-content-around"
+      <b-tabs lazy pills card navClass="justify-content-start"
               @input="activeTab = $event">
 
         <b-tab :title="i.title" v-for="(i, key) in tabs" :key="key" :active="i.active">
