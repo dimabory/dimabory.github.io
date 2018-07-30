@@ -9,7 +9,7 @@
 
     <b-card no-body>
 
-      <b-tabs lazy pills card vertical navWrapperClass="col-12 col-sm-3 col-md-2" contentClass="col-sm-9 col-md-10"
+      <b-tabs lazy pills card navClass="justify-content-around"
               @input="activeTab = $event">
 
         <b-tab :title="i.title" v-for="(i, key) in tabs" :key="key" :active="i.active">
@@ -68,17 +68,6 @@
 </script>
 
 <style scoped>
-  #js-30-days >>> .card-header {
-    padding: 0.75rem 0.3rem;
-  }
-
-  /*
-   * or scss
-   #js-30-days {
-      /deep/ .card-header {}
-   }
-   */
-
   .frog-icon {
     transition: all 1s;
     animation: scale-frog 1s infinite both ease-in;
