@@ -13,7 +13,7 @@ export default [
     component: () => import('./10-HoldShiftAndCheckCheckboxes'),
     active:    false
   },
-  // {title: '11-Custom Video Player', component: () => import('./11-CustomVideoPlayer'), active: false},
+  {title: '11-Custom Video Player', component: () => import('./11-CustomVideoPlayer'), active: false},
   // {title: '12-Key Sequence Detection', component: () => import('./12-KeySequenceDetection'), active: false},
   // {title: '13-Slide in on Scroll', component: () => import('./13-SlideInOnScroll'), active: false},
   // {title: '14-JS Reference vs Copying', component: () => import('./14-JSReferenceVsCopying'), active: false},
