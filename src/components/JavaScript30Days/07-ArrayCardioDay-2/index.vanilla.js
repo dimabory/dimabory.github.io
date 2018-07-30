@@ -19,8 +19,8 @@ export function init () {
     // is everyone 19 or older?
     isEveryAdult: people.every(person => (new Date()).getFullYear() - person.year >= 19),
     // Find is like filter, but instead returns just the one you are looking for
-    comment:      comments.find(({id, ...rest}) => id === 823423),
-    index:        comments.findIndex(({id, ...rest}) => id === 823423),
+    comment:      comments.find(({id}) => id === 823423),
+    index:        comments.findIndex(({id}) => id === 823423),
 
     // delete the comment with the ID of 823423
     delete () {
