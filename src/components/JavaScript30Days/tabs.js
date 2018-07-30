@@ -7,7 +7,7 @@ export default [
   {title: '06-Type Ahead', component: () => import('./06-TypeAhead'), active: false},
   {title: '07-Array CardioDay 2', component: () => import('./07-ArrayCardioDay-2'), active: false},
   {title: '08-Fun With HTML5 Canvas', component: () => import('./08-FunWithHTML5Canvas'), active: false},
-  // {title: '09-Dev Tools Domination', component: () => import('./09-DevToolsDomination'), active: false},
+  {title: '09-Dev Tools Domination', component: () => import('./09-DevToolsDomination'), active: false},
   // {
   //   title: '10-Hold Shift and Check Checkboxes',
   //   component: () => import('./10-HoldShiftAndCheckCheckboxes'),
