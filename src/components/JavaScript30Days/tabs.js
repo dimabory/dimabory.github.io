@@ -5,7 +5,7 @@ export default [
   {title: '04-Array Cardio Day 1', component: () => import('./04-ArrayCardioDay-1'), active: false},
   {title: '05-Flex Panel Gallery', component: () => import('./05-FlexPanelGallery'), active: false},
   {title: '06-Type Ahead', component: () => import('./06-TypeAhead'), active: false},
-  // {title: '07-Array CardioDay 2', component: () => import('./07-ArrayCardioDay-2'), active: false},
+  {title: '07-Array CardioDay 2', component: () => import('./07-ArrayCardioDay-2'), active: false},
   // {title: '08-Fun With HTML5 Canvas', component: () => import('./08-FunWithHTML5Canvas'), active: false},
   // {title: '09-Dev Tools Domination', component: () => import('./09-DevToolsDomination'), active: false},
   // {
