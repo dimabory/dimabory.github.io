@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.9.0"></a>
+# [0.9.0](https://github.com/dimabory/dimabory.github.io/compare/v0.8.0...v0.9.0) (2018-07-30)
+
+
+### Bug Fixes
+
+* **07-array-cardio-day-2:** fix linter ([73e9bf9](https://github.com/dimabory/dimabory.github.io/commit/73e9bf9))
+* fix code loading by force updating ([704571a](https://github.com/dimabory/dimabory.github.io/commit/704571a))
+
+
+### Features
+
+* **08-fun-with-html5-canvas:** 08-Fun With HTML5 Canvas ([ee28bd4](https://github.com/dimabory/dimabory.github.io/commit/ee28bd4))
+
+
+
 <a name="0.8.0"></a>
 # [0.8.0](https://github.com/dimabory/dimabory.github.io/compare/v0.7.0...v0.8.0) (2018-07-30)
 
