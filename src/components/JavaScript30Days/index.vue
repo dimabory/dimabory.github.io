@@ -9,7 +9,8 @@
 
     <b-card no-body>
 
-      <b-tabs lazy pills card vertical navWrapperClass="col-12 col-sm-3 col-md-2" contentClass="col-sm-9 col-md-10" @input="activeTab = $event">
+      <b-tabs lazy pills card vertical navWrapperClass="col-12 col-sm-3 col-md-2" contentClass="col-sm-9 col-md-10"
+              @input="activeTab = $event">
 
         <b-tab :title="i.title" v-for="(i, key) in tabs" :key="key" :active="i.active">
 
@@ -21,7 +22,7 @@
 
           <template v-if="i.raw">
             <keep-alive>
-              <show-code :raw="i.raw"></show-code>
+              <show-code :raw="i.raw" :key="key"></show-code>
             </keep-alive>
           </template>
 
@@ -53,16 +54,16 @@
   const ACTIVE_TAB_INDEX_STORAGE_KEY = '30_days_js_active_tab'
 
   export default {
-    name: 'JavaScript30Days',
+    name:       'JavaScript30Days',
     components: {ShowCode},
-    mixins: [mixin.call(this, tabs, ACTIVE_TAB_INDEX_STORAGE_KEY)],
-    methods: {
+    mixins:     [mixin.call(this, tabs, ACTIVE_TAB_INDEX_STORAGE_KEY)],
+    methods:    {
       showCode (i, data) {
-        this.$nextTick(() => {
-          this.tabs[i].raw = data
-        })
+        this.tabs[i].raw = data
+        this.$forceUpdate()
       }
-    }
+    },
+
   }
 </script>
 
