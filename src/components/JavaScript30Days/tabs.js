@@ -8,11 +8,11 @@ export default [
   {title: '07-Array CardioDay 2', component: () => import('./07-ArrayCardioDay-2'), active: false},
   {title: '08-Fun With HTML5 Canvas', component: () => import('./08-FunWithHTML5Canvas'), active: false},
   {title: '09-Dev Tools Domination', component: () => import('./09-DevToolsDomination'), active: false},
-  // {
-  //   title: '10-Hold Shift and Check Checkboxes',
-  //   component: () => import('./10-HoldShiftAndCheckCheckboxes'),
-  //   active: false
-  // },
+  {
+    title:     '10-Hold Shift and Check Checkboxes',
+    component: () => import('./10-HoldShiftAndCheckCheckboxes'),
+    active:    false
+  },
   // {title: '11-Custom Video Player', component: () => import('./11-CustomVideoPlayer'), active: false},
   // {title: '12-Key Sequence Detection', component: () => import('./12-KeySequenceDetection'), active: false},
   // {title: '13-Slide in on Scroll', component: () => import('./13-SlideInOnScroll'), active: false},
