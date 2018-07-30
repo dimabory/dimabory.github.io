@@ -9,7 +9,7 @@
 
     <b-card no-body>
 
-      <b-tabs pills card vertical navWrapperClass="col-12 col-sm-3 col-md-2" contentClass="col-sm-9 col-md-10" @input="activeTab = $event">
+      <b-tabs lazy pills card vertical navWrapperClass="col-12 col-sm-3 col-md-2" contentClass="col-sm-9 col-md-10" @input="activeTab = $event">
 
         <b-tab :title="i.title" v-for="(i, key) in tabs" :key="key" :active="i.active">
 
