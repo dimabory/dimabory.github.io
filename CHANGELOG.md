@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.12.0"></a>
+# [0.12.0](https://github.com/dimabory/dimabory.github.io/compare/v0.11.0...v0.12.0) (2018-07-30)
+
+
+### Bug Fixes
+
+* **10-hold-shift-and-check-checkboxes:** fix title ([e9caa68](https://github.com/dimabory/dimabory.github.io/commit/e9caa68))
+
+
+### Features
+
+* **11-custom-video-player:** 11-CustomVideoPlayer ([86c213d](https://github.com/dimabory/dimabory.github.io/commit/86c213d))
+
+
+
 <a name="0.11.0"></a>
 # [0.11.0](https://github.com/dimabory/dimabory.github.io/compare/v0.10.0...v0.11.0) (2018-07-30)
 
