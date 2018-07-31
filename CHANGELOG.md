@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.15.0"></a>
+# [0.15.0](https://github.com/dimabory/dimabory.github.io/compare/v0.14.0...v0.15.0) (2018-07-31)
+
+
+### Features
+
+* **14-js-reference-vs-copying:** 14-JSReferenceVsCopying ([720734c](https://github.com/dimabory/dimabory.github.io/commit/720734c))
+
+
+
 <a name="0.14.0"></a>
 # [0.14.0](https://github.com/dimabory/dimabory.github.io/compare/v0.13.0...v0.14.0) (2018-07-31)
 
