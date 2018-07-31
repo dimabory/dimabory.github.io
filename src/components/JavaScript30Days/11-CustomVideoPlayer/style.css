@@ -1,4 +1,3 @@
-
 .player {
   border: 5px solid rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
@@ -81,7 +80,6 @@
   width: 50%;
   background: #ffc600;
   flex: 0;
-  flex-basis: 50%;
 }
 
 /* unholy css to style input type="range" */
@@ -139,9 +137,4 @@ input[type=range]::-moz-range-thumb {
   border-radius: 50px;
   background: #ffc600;
   cursor: pointer;
-}
-
-:-webkit-full-screen video {
-  width: 100%;
-  height: 100%;
 }
