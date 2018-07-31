@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.15.1"></a>
+## [0.15.1](https://github.com/dimabory/dimabory.github.io/compare/v0.15.0...v0.15.1) (2018-07-31)
+
+
+### Features
+
+* **14-js-reference-vs-copying:** added code with deepClone function ([9646a9e](https://github.com/dimabory/dimabory.github.io/commit/9646a9e))
+
+
+
 <a name="0.15.0"></a>
 # [0.15.0](https://github.com/dimabory/dimabory.github.io/compare/v0.14.0...v0.15.0) (2018-07-31)
 
