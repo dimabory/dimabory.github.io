@@ -1,0 +1,49 @@
+.site-wrap {
+  max-width: 700px;
+  margin: 0 auto;
+  background: white;
+  padding: 40px;
+  text-align: justify;
+}
+
+.align-left {
+  float: left;
+  margin-right: 20px;
+}
+
+.align-right {
+  float: right;
+  margin-left: 20px;
+}
+
+.slide-in {
+  opacity: 0;
+  transition: all .5s;
+}
+
+.slide-in--200x200 {
+  width: 200px;
+  height: 200px;
+}
+
+.slide-in--400x400 {
+  width: 400px;
+  height: 400px;
+}
+
+.slide-in--400x400--cover {
+  object-fit: cover;
+}
+
+.align-left.slide-in {
+  transform: translateX(-30%) scale(0.95);
+}
+
+.align-right.slide-in {
+  transform: translateX(30%) scale(0.95);
+}
+
+.slide-in.active {
+  opacity: 1;
+  transform: translateX(0%) scale(1);
+}
