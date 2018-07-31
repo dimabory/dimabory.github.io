@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 export function init () {
   // start with strings, numbers and booleans
   // let age = 100;
@@ -59,12 +61,4 @@ export function init () {
   console.log(wes)
   const dev  = Object.assign({}, wes)
   const dev2 = JSON.parse(JSON.stringify(wes))
-
-  function deepClone (obj) {
-    let clone = Object.assign({}, obj)
-    Object.keys(clone).forEach(
-      key => clone[key] = (typeof obj[key] === 'object' ? deepClone(obj[key]) : obj[key])
-    )
-    return Array.isArray(obj) ? (clone.length = obj.length) && Array.from(clone) : clone
-  }
 }
