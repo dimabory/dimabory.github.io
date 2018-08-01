@@ -5,7 +5,7 @@
     </div>
     <transition name="fade" mode="out-in">
       <b-collapse ref='panel' :id="id" class="mt-2">
-        <b-card>
+        <b-card no-body>
           <pre v-highlightjs="raw"><code :class="[type, 'style']"></code></pre>
         </b-card>
       </b-collapse>
