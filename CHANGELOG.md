@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.17.1"></a>
+## [0.17.1](https://github.com/dimabory/dimabory.github.io/compare/v0.17.0...v0.17.1) (2018-08-01)
+
+
+### Bug Fixes
+
+* **16-mouse-move-shadow:** fix style ([7b1e6f5](https://github.com/dimabory/dimabory.github.io/commit/7b1e6f5))
+
+
+
 <a name="0.17.0"></a>
 # [0.17.0](https://github.com/dimabory/dimabory.github.io/compare/v0.16.0...v0.17.0) (2018-08-01)
 
