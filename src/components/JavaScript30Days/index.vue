@@ -1,10 +1,18 @@
 <template>
   <div id="js-30-days">
 
-    <div class="row justify-content-end">
-      <a href="https://javascript30.com/" target="_blank" class="badge badge-secondary">JavaScript 30 Day
+    <div class="row justify-content-end mb-1">
+      <a href="https://javascript30.com/" target="_blank" class="badge badge-secondary mr-1">JavaScript 30 Day
         Challenge</a>
-      <a href="https://github.com/wesbos/JavaScript30" target="_blank" class="badge badge-dark mr-3">Github</a>
+      <a href="https://github.com/wesbos/JavaScript30" target="_blank" class="badge badge-dark text-secondary mr-3">
+        <font-awesome-icon :icon="['fab', 'github']" size="1x"/>
+        Wes Repo
+      </a>
+
+      <a href="https://github.com/dimabory/dimabory.github.io/tree/gh-pages/src/components/JavaScript30Days"
+         target="_blank" class="badge badge-dark mr-3">
+        <font-awesome-icon :icon="['fab', 'github']" size="1x"/>
+        Dmtr Repo</a>
     </div>
 
     <b-card no-body>
