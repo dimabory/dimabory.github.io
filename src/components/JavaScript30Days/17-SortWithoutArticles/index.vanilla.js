@@ -19,14 +19,18 @@ export function init () {
     return bandName.replace(/^(a |the |an )/i, '').trim()
   }
 
-  function sortBands (bands, order) {
-    return bands.slice().sort((a, b) => {
-      const cmp = a => b => strip(a) > strip(b)
-      if (order) {
-        return cmp(a)(b) ? 1 : -1
-      }
-      return cmp(a)(b) ? -1 : 1
-    })
+  function sort (bands) {
+
+    return function (order) {
+      return bands.slice().sort((a, b) => {
+        const cmp = a => b => strip(a) > strip(b)
+        if (Number(order)) {
+          return cmp(a)(b) ? 1 : -1
+        }
+        return cmp(a)(b) ? -1 : 1
+      })
+    }
+
   }
 
   function render (bands) {
@@ -36,7 +40,7 @@ export function init () {
   document.querySelectorAll('.btn.btn--sort')
           .forEach(btn => btn.addEventListener('click', e => {
               render(
-                sortBands(bands, Number(e.target.dataset.sort))
+                sort(bands)(e.target.dataset.sort)
               )
             })
           )
