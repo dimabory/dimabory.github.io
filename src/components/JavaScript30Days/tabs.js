@@ -18,7 +18,7 @@ export default [
   {title: '13-Slide in on Scroll', component: () => import('./13-SlideInOnScroll'), active: false},
   {title: '14-JS Reference vs Copying', component: () => import('./14-JSReferenceVsCopying'), active: false},
   {title: '15-Local Storage', component: () => import('./15-LocalStorage'), active: false},
-  // {title: '16-Mouse Move Shadow', component: () => import('./16-MouseMoveShadow'), active: false},
+  {title: '16-Mouse Move Shadow', component: () => import('./16-MouseMoveShadow'), active: false},
   // {title: '17-Sort Without Articles', component: () => import('./17-SortWithoutArticles'), active: false},
   // {title: '18-Adding Up Times with Reduce', component: () => import('./18-AddingUpTimesWithReduce'), active: false},
   // {title: '19-Webcam Fun', component: () => import('./19-WebcamFun'), active: false},
