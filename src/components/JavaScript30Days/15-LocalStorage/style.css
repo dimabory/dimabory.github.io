@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Kirang+Haerang');
+
+.local-tapas {
+  background: url('http://wes.io/hx9M/oh-la-la.jpg') center no-repeat;
+  background-size: cover;
+  font-family: 'Kirang Haerang', cursive;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+svg {
+  fill: white;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 50%;
+  width: 200px;
+  margin-bottom: 50px;
+  transition: all 1s ease-in-out;
+}
+
+svg:hover {
+  transform: scale(1.1) rotate(360deg);
+  filter: invert(100%)
+}
+
+.wrapper {
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin: 0;
+  font-weight: 200;
+}
+
+.plates {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  list-style: none;
+}
+
+.plates >>> li {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 2px 0;
+  font-weight: 100;
+  display: flex;
+}
+
+.plates >>> label {
+  flex: 1;
+  cursor: pointer;
+}
+
+.plates >>> input {
+  display: none;
+}
+
+.plates >>> input + label:before {
+  content: '⬜️';
+  margin-right: 10px;
+}
+
+.plates >>> input:checked + label:before {
+  content: '🌮';
+}
+
+.add-items {
+  margin-top: 20px;
+}
+
+.add-items input {
+  padding: 10px;
+  outline: 0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
