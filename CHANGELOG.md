@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.19.0"></a>
+# [0.19.0](https://github.com/dimabory/dimabory.github.io/compare/v0.18.0...v0.19.0) (2018-08-01)
+
+
+### Features
+
+* **18-adding-up-times-with-reduce:** 18-AddingUpTimesWithReduce ([cc0101b](https://github.com/dimabory/dimabory.github.io/commit/cc0101b))
+
+
+
 <a name="0.18.0"></a>
 # [0.18.0](https://github.com/dimabory/dimabory.github.io/compare/v0.17.1...v0.18.0) (2018-08-01)
 
