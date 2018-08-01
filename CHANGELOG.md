@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.16.0"></a>
+# [0.16.0](https://github.com/dimabory/dimabory.github.io/compare/v0.15.1...v0.16.0) (2018-08-01)
+
+
+### Bug Fixes
+
+* **13-slide-in-on-scroll:** fix style ([e951018](https://github.com/dimabory/dimabory.github.io/commit/e951018))
+
+
+
 <a name="0.15.1"></a>
 ## [0.15.1](https://github.com/dimabory/dimabory.github.io/compare/v0.15.0...v0.15.1) (2018-07-31)
 
