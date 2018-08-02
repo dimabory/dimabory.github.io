@@ -2,23 +2,24 @@ import Vue          from 'vue'
 import Router       from 'vue-router'
 import AppContainer from './AppContainer'
 
-const giphy    = () => import ('./components/GiphyTab')
-const js30days = () => import ('./components/JavaScript30Days')
+const giphy     = () => import ('./components/GiphyTab')
+const js30days  = () => import ('./components/JavaScript30Days')
 
 Vue.use(Router)
 
-export default new Router({
+const router = new Router({
+  mode:   'history',
   routes: [
     {
       path:      '/',
       name:      'home',
       component: AppContainer,
-      redirect:  window.localStorage.getItem('router') || 'giphy',
+      redirect:  {name: window.localStorage.getItem('router') || 'giphy'},
       children:  [
         {
           path:      'giphy',
           name:      'giphy',
-          component: giphy
+          component: giphy,
         },
         {
           path:      'js30days',
@@ -27,5 +28,10 @@ export default new Router({
         }
       ]
     },
+    {path: '*', redirect: '/'}
   ]
 })
+
+router.afterEach(to => window.localStorage.setItem('router', to.name))
+
+export default router

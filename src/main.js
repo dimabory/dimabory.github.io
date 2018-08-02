@@ -13,8 +13,6 @@ Vue.config.productionTip = false
 
 Vue.use(BootstrapVue)
 
-router.afterEach(to => window.localStorage.setItem('router', to.name))
-
 new Vue({
   router,
   render: h => h(App)
