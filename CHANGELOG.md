@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.20.1"></a>
+## [0.20.1](https://github.com/dimabory/dimabory.github.io/compare/v0.20.0...v0.20.1) (2018-08-02)
+
+
+### Performance Improvements
+
+* **19-webcam-fun:** 19-WebcamFun ([2ef973d](https://github.com/dimabory/dimabory.github.io/commit/2ef973d))
+
+
+
 <a name="0.20.0"></a>
 # [0.20.0](https://github.com/dimabory/dimabory.github.io/compare/v0.19.0...v0.20.0) (2018-08-02)
 
