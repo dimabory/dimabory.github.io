@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.20.2"></a>
+## [0.20.2](https://github.com/dimabory/dimabory.github.io/compare/v0.20.1...v0.20.2) (2018-08-02)
+
+
+### Bug Fixes
+
+* **router:** turnoff history mode ([c79f558](https://github.com/dimabory/dimabory.github.io/commit/c79f558))
+
+
+
 <a name="0.20.1"></a>
 ## [0.20.1](https://github.com/dimabory/dimabory.github.io/compare/v0.20.0...v0.20.1) (2018-08-02)
 
