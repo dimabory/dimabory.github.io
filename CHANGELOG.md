@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.20.0"></a>
+# [0.20.0](https://github.com/dimabory/dimabory.github.io/compare/v0.19.0...v0.20.0) (2018-08-02)
+
+
+### Bug Fixes
+
+* **router:** redirect to 404 ([08d7273](https://github.com/dimabory/dimabory.github.io/commit/08d7273))
+
+
+### Features
+
+* **19-webcam-fun:** 19-WebcamFun ([c2924ba](https://github.com/dimabory/dimabory.github.io/commit/c2924ba))
+
+
+
 <a name="0.19.0"></a>
 # [0.19.0](https://github.com/dimabory/dimabory.github.io/compare/v0.18.0...v0.19.0) (2018-08-01)
 
