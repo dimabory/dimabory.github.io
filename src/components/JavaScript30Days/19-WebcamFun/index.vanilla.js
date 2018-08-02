@@ -70,11 +70,10 @@ export function init () {
 
   function grayscaleEffect (pixels) {
     for (let i = 0; i < pixels.data.length; i += 4) {
-      [
-        pixels.data[i],
-        pixels.data[i + 1],
-        pixels.data[i + 2]
-      ] = Array.from({length: 3}, () => pixels.data[i] * .3 + pixels.data[i + 1] * .59 + pixels.data[i + 2] * .11, 0, 3)
+      let grayscale      = pixels.data[i] * .3 + pixels.data[i + 1] * .59 + pixels.data[i + 2] * .11
+      pixels.data[i]     = grayscale
+      pixels.data[i + 1] = grayscale
+      pixels.data[i + 2] = grayscale
     }
     return pixels
   }
