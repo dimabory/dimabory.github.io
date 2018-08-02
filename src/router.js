@@ -9,7 +9,6 @@ const webcamFun = () => import ('./components/JavaScript30Days/19-WebcamFun')
 Vue.use(Router)
 
 const router = new Router({
-  mode:   'history',
   routes: [
     {
       path:      '/',
