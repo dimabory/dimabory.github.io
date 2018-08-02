@@ -4,6 +4,7 @@ import AppContainer from './AppContainer'
 
 const giphy     = () => import ('./components/GiphyTab')
 const js30days  = () => import ('./components/JavaScript30Days')
+const webcamFun = () => import ('./components/JavaScript30Days/19-WebcamFun')
 
 Vue.use(Router)
 
@@ -25,6 +26,11 @@ const router = new Router({
           path:      'js30days',
           name:      'js30days',
           component: js30days,
+        },
+        {
+          path:      'webcam',
+          name:      'webcamFun',
+          component: webcamFun
         }
       ]
     },

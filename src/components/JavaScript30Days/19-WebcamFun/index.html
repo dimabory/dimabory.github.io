@@ -1,3 +1,49 @@
 <div class="container">
-  <h2 class="text-center">WebcamFun</h2>
+  <h2 class="text-center">Webcam Fun</h2>
+
+  <video class="player col"></video>
+
+  <div>
+    <div class="photobooth">
+      <div class="controls col mb-2 d-flex flex-column justify-content-center align-items-center">
+        <div class="d-flex flex-column flex-sm-row justify-content-around">
+          <button class="form-control btn btn-secondary btn--take-photo mb-2 mr-sm-2">Take Photo</button>
+          <button class="form-control btn btn-dark btn--red-effect mb-2 mr-sm-2">Red</button>
+          <button class="form-control btn btn-dark btn--rgb-split-effect mb-2 mr-sm-2">RGP Split</button>
+          <button class="form-control btn btn-dark btn--grayscale-effect mb-2">Grayscale</button>
+        </div>
+
+        <!--<div class="rgb">-->
+          <!--<form class="form-inline">-->
+            <!--<label for="rmin" class="col-3">Red min:</label>-->
+            <!--<input type="range" class="custom-range ml-2 col-8" min=0 max=255 name="rmin" id="rmin">-->
+            <!--<label for="rmax" class="col-3">Red max:</label>-->
+            <!--<input type="range" class="custom-range ml-2 col-8" min=0 max=255 name="rmax" id="rmax">-->
+          <!--</form>-->
+
+          <!--<form class="form-inline">-->
+            <!--<label for="gmin" class="col-3">Green min:</label>-->
+            <!--<input type="range" class="custom-range ml-2 col-8" min=0 max=255 name="gmin" id="gmin">-->
+            <!--<label for="gmax" class="col-3">Green max:</label>-->
+            <!--<input type="range" class="custom-range ml-2 col-8" min=0 max=255 name="gmax" id="gmax">-->
+          <!--</form>-->
+
+          <!--<form class="form-inline">-->
+            <!--<label for="bmin" class="col-3">Blue min:</label>-->
+            <!--<input type="range" class="custom-range ml-2 col-8" min=0 max=255 name="bmin" id="bmin">-->
+            <!--<label for="bmax" class="col-3">Blue max:</label>-->
+            <!--<input type="range" class="custom-range ml-2 col-8" min=0 max=255 name="bmax" id="bmax">-->
+          <!--</form>-->
+
+        <!--</div>-->
+      </div>
+
+      <canvas class="photo col-12"></canvas>
+      <div class="clearfix"></div>
+      <div class="strip col-12 d-flex flex-column flex-wrap flex-md-row justify-content-around align-items-center"></div>
+    </div>
+
+    <audio class="snap" src="http://wesbos.com/demos/photobooth/snap.mp3" hidden></audio>
+
+  </div>
 </div>
