@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.23.0"></a>
+# [0.23.0](https://github.com/dimabory/dimabory.github.io/compare/v0.21.0...v0.23.0) (2018-08-06)
+
+
+### Features
+
+* **21-geolocation:** 21-Geolocation ([4bfdc8f](https://github.com/dimabory/dimabory.github.io/commit/4bfdc8f))
+* **22-follow-along-link:** 22-FollowAlongLinkHighlighter ([d270b6e](https://github.com/dimabory/dimabory.github.io/commit/d270b6e))
+* **vue-config:** allow https on dev server ([db7f80b](https://github.com/dimabory/dimabory.github.io/commit/db7f80b))
+
+
+
 <a name="0.21.0"></a>
 # [0.21.0](https://github.com/dimabory/dimabory.github.io/compare/v0.20.3...v0.21.0) (2018-08-06)
 
