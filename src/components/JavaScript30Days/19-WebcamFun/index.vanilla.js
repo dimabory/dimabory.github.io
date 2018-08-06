@@ -27,8 +27,9 @@ export function init () {
                canvas.width  = 0
                canvas.height = 0
 
-               const errNode     = document.createElement('span')
-               errNode.innerHTML = `<div class="d-flex justify-content-center"><span class="text-danger">${err.message}. Please allow your media device to start video recording.</span></div>`
+               const errNode = document.createElement('div')
+               errNode.classList.add('d-flex', 'justify-content-center')
+               errNode.innerHTML = `<span class="text-danger">${err.message}. Please allow your media device to start video recording.</span>`
                canvas.parentNode.insertBefore(errNode, canvas)
              })
   }
