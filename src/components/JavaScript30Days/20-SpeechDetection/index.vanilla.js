@@ -23,6 +23,23 @@ export function init () {
   })
 
   recognition.addEventListener('end', recognition.start)
+  recognition.addEventListener('error', err => {
+    console.error(err)
+    recognition.stop()
+    recognition.removeEventListener('end', recognition.start)
+
+    const errNode = document.createElement('div')
+    errNode.classList.add('d-flex', 'justify-content-center')
+    let errMessage = ''
+    if ('not-allowed' === err.error) {
+      errMessage = 'Permission denied. Please allow your media device to start speech recognition.'
+    } else {
+      errMessage = 'An error occurred: ' + err.error
+    }
+    errNode.innerHTML = `<span class="text-danger">${errMessage}</span>`
+
+    words.parentNode.insertBefore(errNode, words)
+  })
 
   recognition.start()
 }
