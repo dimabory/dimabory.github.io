@@ -20,7 +20,7 @@
       <b-tabs lazy pills card navClass="justify-content-start"
               @input="activeTab = $event">
 
-        <b-tab :title="i.title" v-for="(i, key) in tabs" :key="key" :active="i.active">
+        <b-tab no-body :class="['pt-2', 'pb-2']" :title="i.title" v-for="(i, key) in tabs" :key="key" :active="i.active">
 
           <transition name="fade" mode="out-in" appear>
             <keep-alive>
