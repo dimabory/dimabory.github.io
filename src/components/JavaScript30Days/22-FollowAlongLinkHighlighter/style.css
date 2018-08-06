@@ -24,8 +24,11 @@ a {
   padding: 0;
   display: flex;
   list-style: none;
-  justify-content: center;
   margin: 100px 0;
+  flex-wrap: initial;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
 }
 
 .menu a {
