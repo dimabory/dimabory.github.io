@@ -1,5 +1,5 @@
 export function init () {
-  const triggers  = document.querySelectorAll('a')
+  const triggers  = document.querySelectorAll('.container a')
   const highlight = document.createElement('span')
   highlight.classList.add('highlight')
   document.body.appendChild(highlight)
