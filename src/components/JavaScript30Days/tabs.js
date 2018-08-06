@@ -24,11 +24,11 @@ export default [
   {title: '19-Webcam Fun', component: () => import('./19-WebcamFun'), active: false},
   {title: '20-Speech Detection', component: () => import('./20-SpeechDetection'), active: false},
   {title: '21-Geolocation', component: () => import('./21-Geolocation'), active: false},
-  // {
-  //   title: '22-Follow Along Link Highlighter',
-  //   component: () => import('./22-FollowAlongLinkHighlighter'),
-  //   active: false
-  // },
+  {
+    title:     '22-Follow Along Link Highlighter',
+    component: () => import('./22-FollowAlongLinkHighlighter'),
+    active:    false
+  },
   // {title: '23-Speech Synthesis', component: () => import('./23-SpeechSynthesis'), active: false},
   // {title: '24-Sticky Nav', component: () => import('./24-StickyNav'), active: false},
   // {
