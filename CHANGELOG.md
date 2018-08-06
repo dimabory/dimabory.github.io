@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.21.0"></a>
+# [0.21.0](https://github.com/dimabory/dimabory.github.io/compare/v0.20.3...v0.21.0) (2018-08-06)
+
+
+### Features
+
+* **20-speech-detection:** 20-SpeechDetection ([881b498](https://github.com/dimabory/dimabory.github.io/commit/881b498))
+
+
+
 <a name="0.20.3"></a>
 ## [0.20.3](https://github.com/dimabory/dimabory.github.io/compare/v0.20.2...v0.20.3) (2018-08-02)
 
