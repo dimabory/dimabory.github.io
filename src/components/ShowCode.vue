@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="row justify-content-center">
-      <b-btn @click="$refs.panel.toggle()" :class="btnClass">{{btnTitle}}</b-btn>
+      <b-btn @click="$refs.panel.toggle()" :class="['btn--show-code', ...btnClass]">{{btnTitle}}</b-btn>
     </div>
     <transition name="fade" mode="out-in">
       <b-collapse ref='panel' :id="id" class="mt-2">

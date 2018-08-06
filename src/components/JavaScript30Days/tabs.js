@@ -22,7 +22,7 @@ export default [
   {title: '17-Sort Without Articles', component: () => import('./17-SortWithoutArticles'), active: false},
   {title: '18-Adding Up Times with Reduce', component: () => import('./18-AddingUpTimesWithReduce'), active: false},
   {title: '19-Webcam Fun', component: () => import('./19-WebcamFun'), active: false},
-  // {title: '20-Speech Detection', component: () => import('./20-SpeechDetection'), active: false},
+  {title: '20-Speech Detection', component: () => import('./20-SpeechDetection'), active: false},
   // {title: '21-Geolocation', component: () => import('./21-Geolocation'), active: false},
   // {
   //   title: '22-Follow Along Link Highlighter',
