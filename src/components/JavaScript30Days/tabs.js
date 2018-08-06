@@ -29,7 +29,7 @@ export default [
     component: () => import('./22-FollowAlongLinkHighlighter'),
     active:    false
   },
-  // {title: '23-Speech Synthesis', component: () => import('./23-SpeechSynthesis'), active: false},
+  {title: '23-Speech Synthesis', component: () => import('./23-SpeechSynthesis'), active: false},
   // {title: '24-Sticky Nav', component: () => import('./24-StickyNav'), active: false},
   // {
   //   title: '25-Event Capture, Propogation, Bubbling and Once',
