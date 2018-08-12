@@ -31,11 +31,11 @@ export default [
   },
   {title: '23-Speech Synthesis', component: () => import('./23-SpeechSynthesis'), active: false},
   {title: '24-Sticky Nav', component: () => import('./24-StickyNav'), active: false},
-  // {
-  //   title: '25-Event Capture, Propogation, Bubbling and Once',
-  //   component: () => import('./25-EventCapturePropogationBubblingAndOnce'),
-  //   active: false
-  // },
+  {
+    title:     '25-Event Capture, Propogation, Bubbling and Once',
+    component: () => import('./25-EventCapturePropogationBubblingAndOnce'),
+    active:    false
+  },
   // {title: '26-Stripe Follow Along Nav', component: () => import('./26-StripeFollowAlongNav'), active: false},
   // {title: '27-Click and Drag', component: () => import('./27-ClickAndDrag'), active: false},
   // {title: '28-Video Speed Controller', component: () => import('./28-VideoSpeedController'), active: false},
