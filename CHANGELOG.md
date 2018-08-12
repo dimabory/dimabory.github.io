@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.25.0"></a>
+# [0.25.0](https://github.com/dimabory/dimabory.github.io/compare/v0.24.0...v0.25.0) (2018-08-12)
+
+
+### Features
+
+* **24-sticky-nav:** 24-StickyNav ([d89a16c](https://github.com/dimabory/dimabory.github.io/commit/d89a16c))
+
+
+
 <a name="0.24.0"></a>
 # [0.24.0](https://github.com/dimabory/dimabory.github.io/compare/v0.23.1...v0.24.0) (2018-08-06)
 
