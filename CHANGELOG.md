@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.26.0"></a>
+# [0.26.0](https://github.com/dimabory/dimabory.github.io/compare/v0.25.0...v0.26.0) (2018-08-12)
+
+
+### Bug Fixes
+
+* **24-sticky-nav:** title ([af455b2](https://github.com/dimabory/dimabory.github.io/commit/af455b2))
+
+
+### Features
+
+* **25-event-capture-propogation-bubbling-and-once:** 25-EventCapturePropogationBubblingAndOnce ([be00def](https://github.com/dimabory/dimabory.github.io/commit/be00def))
+
+
+
 <a name="0.25.0"></a>
 # [0.25.0](https://github.com/dimabory/dimabory.github.io/compare/v0.24.0...v0.25.0) (2018-08-12)
 
