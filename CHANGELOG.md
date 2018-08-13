@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.28.0"></a>
+# [0.28.0](https://github.com/dimabory/dimabory.github.io/compare/v0.27.0...v0.28.0) (2018-08-13)
+
+
+### Bug Fixes
+
+* **26-stripe-follow-along-nav:** mobile (add flex-wrap) ([dd84cd0](https://github.com/dimabory/dimabory.github.io/commit/dd84cd0))
+
+
+### Features
+
+* **27-click-and-drag:** 27-ClickAndDrag ([3b4c79c](https://github.com/dimabory/dimabory.github.io/commit/3b4c79c))
+
+
+
 <a name="0.27.0"></a>
 # [0.27.0](https://github.com/dimabory/dimabory.github.io/compare/v0.26.0...v0.27.0) (2018-08-13)
 
