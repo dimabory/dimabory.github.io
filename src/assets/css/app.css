@@ -2,3 +2,11 @@
   background-color: var(--primary);
   color: #fff;
 }
+
+#app {
+  background: #f2f5f6;
+  background: -moz-linear-gradient(left, hsl(195, 18%, 96%) 0%, hsl(198, 22%, 91%) 42%, hsl(195, 22%, 82%) 100%);
+  background: -webkit-linear-gradient(left, hsl(195, 18%, 96%) 0%, hsl(198, 22%, 91%) 42%, hsl(195, 22%, 82%) 100%);
+  background: linear-gradient(to right, hsl(195, 18%, 96%) 0%, hsl(198, 22%, 91%) 42%, hsl(195, 22%, 82%) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f2f5f6', endColorstr='#c8d7dc', GradientType=1);
+}
