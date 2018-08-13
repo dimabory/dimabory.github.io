@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.30.1"></a>
+## [0.30.1](https://github.com/dimabory/dimabory.github.io/compare/v0.30.0...v0.30.1) (2018-08-13)
+
+
+### Bug Fixes
+
+* **29-countdown-timer:** clear interval on component destroying ([def2241](https://github.com/dimabory/dimabory.github.io/commit/def2241))
+
+
+
 <a name="0.30.0"></a>
 # [0.30.0](https://github.com/dimabory/dimabory.github.io/compare/v0.29.0...v0.30.0) (2018-08-13)
 
