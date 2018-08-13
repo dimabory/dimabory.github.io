@@ -6,9 +6,15 @@
 
   import mixin from '../mixin'
 
+  const title = document.title
+
   export default {
-    name: 'CountdownTimer',
+    name:   'CountdownTimer',
     mixins: [mixin(() => ({raw}), init)],
+    destroyed () {
+      clearInterval(window.countdown)
+      document.title = title
+    }
   }
 </script>
 

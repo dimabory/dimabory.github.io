@@ -1,5 +1,6 @@
+/* eslint-disable */
 export function init () {
-  let countdown
+  window.countdown = null
 
   const timerDisplay   = document.querySelector('.display__time-left')
   const endTimeDisplay = document.querySelector('.display__end-time')
