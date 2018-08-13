@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.29.0"></a>
+# [0.29.0](https://github.com/dimabory/dimabory.github.io/compare/v0.28.0...v0.29.0) (2018-08-13)
+
+
+### Features
+
+* **28-video-speed-controller:** 28-VideoSpeedController ([8d9f63f](https://github.com/dimabory/dimabory.github.io/commit/8d9f63f))
+
+
+
 <a name="0.28.0"></a>
 # [0.28.0](https://github.com/dimabory/dimabory.github.io/compare/v0.27.0...v0.28.0) (2018-08-13)
 
