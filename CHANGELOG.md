@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.27.0"></a>
+# [0.27.0](https://github.com/dimabory/dimabory.github.io/compare/v0.26.0...v0.27.0) (2018-08-13)
+
+
+### Features
+
+* **26-stripe-follow-along-nav:** 26-StripeFollowAlongNav ([3209ec5](https://github.com/dimabory/dimabory.github.io/commit/3209ec5))
+
+
+
 <a name="0.26.0"></a>
 # [0.26.0](https://github.com/dimabory/dimabory.github.io/compare/v0.25.0...v0.26.0) (2018-08-12)
 
