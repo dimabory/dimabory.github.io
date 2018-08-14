@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.31.0"></a>
+# [0.31.0](https://github.com/dimabory/dimabory.github.io/compare/v0.30.1...v0.31.0) (2018-08-14)
+
+
+### Features
+
+* **30-whack-a-mole:** 30-WhackAMole ([d4d224a](https://github.com/dimabory/dimabory.github.io/commit/d4d224a))
+
+
+
 <a name="0.30.1"></a>
 ## [0.30.1](https://github.com/dimabory/dimabory.github.io/compare/v0.30.0...v0.30.1) (2018-08-13)
 
