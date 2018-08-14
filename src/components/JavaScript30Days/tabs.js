@@ -40,5 +40,5 @@ export default [
   {title: '27-Click and Drag', component: () => import('./27-ClickAndDrag'), active: false},
   {title: '28-Video Speed Controller', component: () => import('./28-VideoSpeedController'), active: false},
   {title: '29-Countdown Timer', component: () => import('./29-CountdownTimer'), active: false},
-  // {title: '30-Whack A Mole', component: () => import('./30-WhackAMole'), active: false},
+  {title: '30-Whack A Mole', component: () => import('./30-WhackAMole'), active: false},
 ]

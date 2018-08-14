@@ -1,3 +1,45 @@
-<div class="container">
-  <h2 class="text-center">WhackAMole</h2>
+<div class="container mb-3">
+
+  <div class="row flex-d justify-content-center best-score"></div>
+
+  <div class="row m-4 flex-d justify-content-around">
+    <h1>Whack-a-mole! <span class="score">0</span></h1>
+    <form name="start-game-form">
+      <button class="btn btn-primary start-game">Start!</button>
+      <div>
+        <div class="custom-control custom-radio">
+          <input type="radio" id="default-mode" name="mode" class="custom-control-input" value="default" checked>
+          <label class="custom-control-label" for="default-mode">Default Mode</label>
+        </div>
+        <div class="custom-control custom-radio">
+          <input type="radio" id="expert-mode" name="mode" class="custom-control-input" value="expert">
+          <label class="custom-control-label" for="expert-mode">Expert Mode</label>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <div class="row flex-d justify-content-center result"></div>
+
+  <div class="game">
+    <div class="hole hole1">
+      <div class="mole"></div>
+    </div>
+    <div class="hole hole2">
+      <div class="mole"></div>
+    </div>
+    <div class="hole hole3">
+      <div class="mole"></div>
+    </div>
+    <div class="hole hole4">
+      <div class="mole"></div>
+    </div>
+    <div class="hole hole5">
+      <div class="mole"></div>
+    </div>
+    <div class="hole hole6">
+      <div class="mole"></div>
+    </div>
+  </div>
+
 </div>
