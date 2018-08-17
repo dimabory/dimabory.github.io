@@ -1,15 +1,7 @@
 {
   "name": "dimabory.github.io",
-  "author": "Dmytro Borysovskyi",
-  "homepage": "https://dimabory.github.io",
   "version": "0.31.0",
-  "description": "Personal SPA for fun and self-development.",
-  "license": "MIT",
   "private": true,
-  "keywords": [
-    "vue",
-    "gh-pages"
-  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "rm -rf ./dist && vue-cli-service build",
@@ -17,7 +9,9 @@
     "git-b-is": "git-branch-is",
     "prerelease": "npm run git-b-is gh-pages && npm run build",
     "release": "vcg --branch=master --repo=git@github.com:dimabory/dimabory.github.io.git && standard-version -a",
-    "push-gh": "git push --follow-tags origin gh-pages"
+    "push-gh": "git push --follow-tags origin gh-pages",
+    "test:e2e": "vue-cli-service test:e2e",
+    "ci:test:e2e": "vue-cli-service test:e2e --headless --record --url https://dimabory.github.io"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.2",
@@ -32,6 +26,7 @@
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.0",
+    "@vue/cli-plugin-e2e-cypress": "^3.0.0",
     "@vue/cli-plugin-eslint": "^3.0.0",
     "@vue/cli-service": "^3.0.0",
     "babel-preset-env": "^1.7.0",
@@ -72,7 +67,15 @@
     "last 2 versions",
     "not ie <= 8"
   ],
+  "description": "Personal SPA for fun and self-development.",
+  "license": "MIT",
+  "homepage": "https://dimabory.github.io",
+  "author": "Dmytro Borysovskyi",
   "gitHooks": {
     "pre-commit": "npm run lint"
-  }
+  },
+  "keywords": [
+    "vue",
+    "gh-pages"
+  ]
 }
