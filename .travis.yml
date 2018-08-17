@@ -13,3 +13,5 @@ branches:
   only:
   - gh-pages
   - /.*/
+notifications:
+  on_success: never
