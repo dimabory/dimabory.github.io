@@ -5,10 +5,28 @@
 
 ## Introduction 
 The project is intended to be sandbox of pet projects and just for fun for sure. It's SPA and built with [github pages](https://help.github.com/articles/what-is-github-pages/) site hosting service.
-The base framework is [Vue](https://vuejs.org/) and html component library - [Bootstrap](https://getbootstrap.com/).
+The base framework is [Vue](https://vuejs.org/) and html component library - [Bootstrap](https://getbootstrap.com/). Test framework - [Cypress](https://www.cypress.io/).
 
 ## Features
-@ to be done
+
+### Quick personal links in the topbar
+Contains [LinkedIn](https://www.linkedin.com/in/dmytroborysovkyi), [Github](https://github.com/dimabory), [Telegram](https://t.me/dmtrbrskvsk), [SoundCloud](https://soundcloud.com/auddqrahhlyj) and [email](mailto:bbbara10@gmail.com?subject=Hi!) address.
+
+### Giphy
+> https://giphy.com
+
+Seeks random gif by words using giphy open API. By default search random gif with random text.
+
+[See more](https://dimabory.github.io/#/giphy).
+
+### 30 Day Vanilla JS Coding Challenge
+> https://javascript30.com/
+
+Completed 30 things in 30 days with 30 tutorials.
+
+No Frameworks × No Compilers × No Libraries × No Boilerplate
+
+[See more](https://dimabory.github.io/#/js30days).
 
 ## License
 [MIT](http://opensource.org/licenses/MIT)
